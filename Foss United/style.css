@@ -1,0 +1,119 @@
+
+body{
+   cursor: pointer;
+}
+
+/* Funding part start */
+.section-funding{
+  height: 660px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.section-funding{
+  height: 380px;
+  }
+}
+.subtitle{
+ font-size:60px ;
+ padding: 0 0 14px 0;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.subtitle{
+ font-size:36px ;
+    }
+}
+.hero-subtitle{
+ font-size: 18px;
+}
+.container.funding {
+  padding: 140px 0px 0 0; 
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.container.funding {
+  padding: 10px 5px 0 10px;
+  }
+}
+.container.image-show {
+  padding: 96px 0 11px 103px;
+  display: block;   
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.container.image-show{
+  display: none;
+  }
+}
+
+/* Funding section end */
+
+/* how-it-works part start */
+
+
+.section-markdown{
+  padding: 160px 150px 20px 150px;
+  line-height: 35px;
+  font-size: 18px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.section-markdown{
+  padding: 70px 20px 10px 20px;
+  line-height: 33px;
+  font-size: 15px;
+  }
+}
+/* how-it-works part end */
+
+/* Recent Grants part start */
+.section-Grant{
+  padding: 0px 150px 50px 150px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.section-Grant{
+  padding: 0px 10px 0px 10px;
+  }
+}
+/* Apply for funding start  */
+.section-apply-for{
+  padding: 60px 10px 100px 10px;
+}
+.section-apply{
+  padding: 80px 0px 80px 0px ;
+}
+/* Apply for funding end */
+
+/* footer section start */
+
+.footer-section {
+  color: rgb(209, 204, 204);
+  font-size: 15px;
+  padding: 10px 0 0 0;
+ 
+}
+/* footer section end */
+
+/* last part start */
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.footer-container{
+  display: block;
+  }
+}
+.foss-footer{
+  color: rgb(209, 204, 204);
+  font-size: 15px;
+  padding: 0px 63px 60px 63px;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+.foss-footer{
+  color: rgb(209, 204, 204);
+  font-size: 15px;
+  padding: 0px 10px 10px 10px;
+  }
+}
+.built-on{
+  padding: 0px 73px 20px 10px;
+}
+/* last part end */
+
+
